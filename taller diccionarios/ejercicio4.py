@@ -32,4 +32,4 @@ for key in estudiantes:
 
 print("Estudiantes suspendidos:",", ".join(suspendidos))
 print("Estudiantes aprobados:",", ".join(aprobados))
-print("La media es de ",round(sum(media)/len(media),2))
+print("La media es ",round(sum(media)/len(media),2))

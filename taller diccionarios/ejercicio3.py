@@ -18,7 +18,6 @@ intentos=1
 for i in usuarios:
     u=input("Usuario: ")
     c=input("Contraseña: ")
-
     if u in usuarios and c==usuarios[u]["password"]:
         nombre=usuarios[u]["nombre"]
         apellido=usuarios[u]["apellido"]
