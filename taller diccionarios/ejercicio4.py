@@ -12,7 +12,7 @@ estudiantes = {
         "nota": 6.5 
  } } 
 nu=3
-for i in range(0,5):
+for i in range(0,10):
     n=input("Nombre del estudiante: ")
     nt=float(input("Nota: "))
     nu=nu+1
